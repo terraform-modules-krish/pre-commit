@@ -1,3 +1,22 @@
+***WARNING: THIS REPO IS AN AUTO-GENERATED COPY.*** *This repo has been copied from [Gruntwork’s](https://gruntwork.io/) GitHub repositories so that you can consume it from your company’s own internal Git repositories. This copy is automatically created and updated by the `repo-copier` CLI tool. If you need to make changes to this repo, you should make the changes in a separate fork, and NOT make changes directly in this repo, as otherwise, the `repo-copier` will overwrite your changes! Please see the `repo-copier` [documentation](https://github.com/terraform-modules-krish/repo-copier) for more information on how the code is copied, how cross-references are updated, how the changelog is handled, etc.*
+
+***
+
+_You may find it valuable to view the following resources in the original repo. If these links give you a 404, visit https://app.gruntwork.io to gain access or email support@gruntwork.io if you need assistance._
+
+[Home Page](https://github.com/gruntwork-io/pre-commit/) |
+[Pull Requests](https://github.com/gruntwork-io/pre-commit/pulls) |
+[Issues](https://github.com/gruntwork-io/pre-commit/issues) |
+[Releases and Assets](https://github.com/gruntwork-io/pre-commit/releases)
+
+_Alternatively, you can view a copied version of the resources listed above._
+
+[Pull Requests](https://github.com/terraform-modules-krish/pre-commit/blob/master/.github/PULL_REQUESTS.md) |
+[Issues](https://github.com/terraform-modules-krish/pre-commit/blob/master/.github/ISSUES.md) |
+[ChangeLog](https://github.com/terraform-modules-krish/pre-commit/blob/master/.github/CHANGELOG.md)
+
+***
+
 [![Maintained by Gruntwork.io](https://img.shields.io/badge/maintained%20by-gruntwork.io-%235849a6.svg)](https://gruntwork.io/?ref=repo_pre-commit)
 
 # Pre-commit hooks
@@ -30,7 +49,7 @@ In each of your repos, add a file called `.pre-commit-config.yaml` with the fol
 
 ```yaml
 repos:
-  - repo: https://github.com/gruntwork-io/pre-commit
+  - repo: https://github.com/terraform-modules-krish/pre-commit
     rev: <VERSION> # Get the latest from: https://github.com/gruntwork-io/pre-commit/releases
     hooks:
       - id: terraform-fmt
@@ -137,7 +156,7 @@ Other shellcheck flags can not be passed through.
 
 ```yaml
 repos:
-  - repo: https://github.com/gruntwork-io/pre-commit
+  - repo: https://github.com/terraform-modules-krish/pre-commit
     rev: <VERSION>
     hooks:
       - id: shellcheck
